@@ -4,6 +4,11 @@ body{
     background-color: #F4F9FF;
 }
 
+main{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 .raleway{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -76,4 +81,57 @@ header section{
 #header_button{
   width: 174px;
   height: 48px;
+}
+
+/* Action section style */
+
+#action_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 116px;
+  padding-bottom: 116px;
+}
+
+#action_contant{
+  width: 517px;
+  height: 203px;
+}
+
+#action_head{
+  color: #252432;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#action_description{
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+}
+
+#action_button{
+  width: 229px;
+  height: 48px;
+}
+
+#action_image{
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+/* Productive users section style */
+
+#users_section{
+  background-color: rgba(77, 71, 255, 0.1);
+  height: 306px;
+  border-radius: 24px;
+  align-items: center;
+  text-align: center;
+}
+
+#users_head{
+  color: #252432;
+  font-size: 38px;
+  font-weight: bold;
 }
