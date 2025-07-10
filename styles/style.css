@@ -128,10 +128,32 @@ header section{
   border-radius: 24px;
   align-items: center;
   text-align: center;
+  padding: 50px 142px;
+  margin-bottom: 137px;
 }
 
 #users_head{
   color: #252432;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
+  margin-bottom: 50px;
 }
+
+#users_statistics{
+  display: flex;
+  justify-content: space-around;
+}
+
+.users_data{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.data_name{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin: 0;
+}
+
