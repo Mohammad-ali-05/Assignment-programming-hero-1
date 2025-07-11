@@ -93,7 +93,7 @@ header section{
   padding-bottom: 116px;
 }
 
-#action_contant{
+#action_content{
   width: 517px;
   height: 203px;
 }
@@ -254,4 +254,55 @@ header section{
   border-radius: 48px;
   display: block;
   margin: auto;
+}
+
+/* Let's get in touch(lgit) section */
+
+#lgit_section{
+  height: 632px;
+  display: flex;
+  padding: 71px 0 ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lgit_head{
+  width: 528px;
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.form_labels{
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 19px;
+  margin-bottom: 10px;
+}
+
+.form_inputs{
+  width: 497px;
+  height: 40px;
+  color: hsla(0, 0%, 0%, 0.5);
+  font-size: 20px;
+  padding: 20px 32px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+}
+
+#message_area{
+  width: 497px;
+  height: 135px;
+  color: hsla(0, 0%, 0%, 0.5);
+  font-size: 20px;
+  padding: 20px 32px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px
+}
+
+#lgit_button{
+  display: block;
+  margin-top: 19px;
+  width: 563px;
+  height: 62px;
 }
