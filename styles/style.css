@@ -9,6 +9,11 @@ main{
   padding-right: 150px;
 }
 
+footer{
+  background-color: white;
+  padding-bottom: 104px;
+}
+
 .raleway{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -305,4 +310,47 @@ header section{
   margin-top: 19px;
   width: 563px;
   height: 62px;
+}
+
+/* Footer section style */
+
+#footer_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#footer_head{
+  color: #4E47FF;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+#footer_content{
+  color: #8987A1;
+  width: 531px;
+  display: block;
+  text-align: center;
+}
+
+#footer_nav{
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer_list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.list_item{
+  color: #8987A1;
+  text-decoration: none;
 }
