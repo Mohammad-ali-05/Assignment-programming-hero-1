@@ -361,3 +361,7 @@ header section{
   color: #8987A1;
   text-decoration: none;
 }
+
+.hide{
+  display: none;
+}
